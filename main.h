@@ -15,7 +15,6 @@
  */
 
 typedef struct printer
-
 {
 	char *specifier;
 	int (*run)(va_list);
